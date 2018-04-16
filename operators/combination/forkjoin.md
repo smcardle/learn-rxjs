@@ -169,7 +169,6 @@ const subscribe = example.subscribe(val => console.log(val));
 ( [plunker](https://plnkr.co/edit/ElTrOg8NfR3WbbAfjBXQ?p=preview) )
 
 ```js
-@Injectable()
 export class MyService {
   makeRequest(value: string, delayDuration: number) {
     // simulate http request
